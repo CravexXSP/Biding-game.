@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+	background-color: #3845d1;
+	font-family: 'Roboto', sans-serif;
+}
+#Tpbox{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: navy;
+}
+#Tpbox h1{
+	color: black;
+	position: absolute;
+	top: 30%;
+}
+#Tpbox #btn{
+	height: 70px;
+	width: 140px;
+	font-size: 20px;
+	background-color: blue;
+	border: none;
+	border-radius: 50px;
+	transition: 0.3s;
+	user-select: none;
+}
+#Tpbox #btn:hover{
+	cursor: pointer;
+	background-color: darkblue;
+}
+#Tpbox p{
+	color: black;
+	position: absolute;
+	top: 40%;
+}
+#ind2{
+	font-size: 20px;
+}
+#box1{
+	user-select: none;
+	background-color: royalblue;
+	height: 120px;
+	width: 100%;
+	border: 2px solid white;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	transition: 0.3s;
+}
+#box1:hover{
+	background-color: navy;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+ul{
+	list-style-type: disc;
+	padding-left: 40px;
+}
+#CONT{
+	position: absolute;
+	top: 85%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#Cont{
+	height: 80px;
+	width: 170px;
+	background-color: royalblue;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none; 
+	transition: 0.3s;
+}
+#Cont:hover{
+	background-color: navy;
+	cursor: pointer;
+}
