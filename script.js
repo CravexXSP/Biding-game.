@@ -2,7 +2,12 @@ let ind4 = document.querySelector("#ind4");
 let counter= document.querySelector("#counter");
 let photo = document.querySelector("#photo");
 let pl1 = document.querySelector("#pl1");
+let pl2 = document.querySelector("#pl2");
+let budget = document.querySelector("#budget")
 let one_score=0;
+let two_score=0;
+let p1_score=335;
+let p2_score=335;
 let no = 5;
 counter.innerText = no;
 let connect;
@@ -23,9 +28,22 @@ setTimeout(function(dets){
 setTimeout(function(){
 	counter.innerText="";
 },6000)
-window.addEventListener('Keyup', function(){
-	if(key.value === a){
+function let_one_score(e){
+	if(e.key === "a" || e.key === "A"){
 		one_score++;
-		pl1.innerText=`Player 1's bid ${one_score}`
+		p1_score--;
+		budget.innerText = `$${p1_score}`;
+		pl1.innerText = `Player 1's bid ${one_score} $`;
 	}
-})
+}
+window.addEventListener("keyup", let_one_score);
+window.addEventListener("keyup", let_one_score);
+function let_two_score(e){
+	if(e.key === "l" || e.key === "L"){
+		two_score++;
+	p2_score--;
+	pl2.innerText = `Player 2's bid:${two_score}$`;
+	budget2.innerText = `$${p2_score}`;
+	}
+}
+window.addEventListener("keyup", let_two_score);
