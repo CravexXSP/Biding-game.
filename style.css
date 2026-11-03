@@ -127,6 +127,7 @@ img{
 	height: 100%;
 	display: flex;
 	align-items: center;
+	position: absolute;
 }
 #pl2{
 	position: absolute;
@@ -135,4 +136,13 @@ img{
 	font-size: 50px;
 	display: flex;
 	align-items: center;
+}
+#budget{
+	font-size: 50px;
+	position: absolute; 
+}
+#budget2{
+	font-size: 50px;
+	position: absolute; 
+	left: 80%; 
 }
