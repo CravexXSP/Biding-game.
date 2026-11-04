@@ -140,9 +140,23 @@ img{
 #budget{
 	font-size: 50px;
 	position: absolute; 
+	left: 10%;
 }
 #budget2{
 	font-size: 50px;
 	position: absolute; 
 	left: 80%; 
+}
+#timer{
+	font-size: 50px;
+	position: absolute; 
+	left: 70%;
+	top: 2%;
+}
+#winner{
+	font-size: 50px;
+	position: absolute; 
+	top: 40%;
+	left: 80%;
+	display: none;
 }
